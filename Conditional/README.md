@@ -35,4 +35,9 @@
 `foreach(string mouse in mice)` 반복변수의 타입은 배열의 타입과 일치해야 함.
 
 `string[] mouse = new string[3] {"Logitech", "Razer", "Steelseries"};` : 배열을 생성하면서 초기화 시키려면 중괄호를 사용하면 된다.
+
 *주의 : 생성된 배열 크기에 맞게 데이터를 저장해야함.
+
+배열 크기를 지정하지 않아도 초기화가 가능하다. 알아서 방 크기도 만들어지기 때문에 오류를 피하려면 이렇게 쓰자. 경우에 따라서는 new도 생략 가능
+
+ex) `string[] mouse = {"Logitech", "Razer", "Steelseries"};`
